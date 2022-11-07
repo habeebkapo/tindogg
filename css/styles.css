@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: left;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.d-button {
+  margin: 5% 3% 5% 0;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.img-iphone {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+.big-heading {
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features-table {
+  padding: 3%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 30px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#cta > div > h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .big-heading {
+      font-size: 2.5rem;
+    }
+
+  .testimonial-text {
+    font-size: 2.5rem;
+  }
+  .section-heading {
+    font-size: 2.5rem;
+  }
+
+  .pricing-text {
+    font-size: 2.5rem;
+  }
+
+  #cta > div > h3 {
+    font-size: 2.5rem;
+  }
+
+  .img-iphone {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+}
